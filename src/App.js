@@ -1,6 +1,7 @@
 import './App.css';
 import NavBar from './components/navbar';
-import About from './components/about';
+import About from './components/intro';
+import SideLogos from './components/sidelogos';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
         <NavBar />
       <div className="App-header">
         <About />
+        <SideLogos />
       </div>
     </div>
   );

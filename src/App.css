@@ -1,6 +1,11 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  background-attachment: fixed;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 .App-logo {
@@ -11,11 +16,12 @@
 
 .App-header {
   background-color: #161827;
-  min-height: 100vh;
+  background-attachment: fixed;
+  min-height: 500vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: top;
   font-size: calc(10px + 2vmin);
   color: white;
 }
@@ -48,7 +54,6 @@
 
 
 .topnav a:hover {
-
   color: orange;
 }
 
@@ -98,4 +103,52 @@
   position: absolute;
   top: 0px;
   left: 0px;
-  height: 15vmin;}
+  height: 15vmin;
+}
+
+.box{
+  border-radius: 15px 50px;
+  background: orangered;
+  width: 100px;
+  height: 30px;
+  }
+
+h1 {
+  color: rgb(170, 170, 170);
+}
+
+h2 {
+  text-align: right;
+  color: rgb(136, 119, 119);
+}
+
+
+h3 {
+  text-align: center;
+  color: rgb(204, 203, 203);
+}
+
+.sidenav {
+  position: fixed;
+  left: 0px;
+  bottom: 10px;
+}
+
+.sidenav a {
+  color: black;
+  text-decoration: none;
+  display: flex;
+
+}
+
+
+.sidenav a:hover {
+  color: rgb(0, 0, 0);
+  background-color: orangered;
+  border-radius: 15px 50px;
+}
+
+.logo {
+  height: 5vmin;
+  padding: 10px;
+}
