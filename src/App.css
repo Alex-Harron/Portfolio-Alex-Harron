@@ -1,20 +1,16 @@
 .App {
   text-align: center;
+  background-color: #282c34;
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 10vmin;
   pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+  float: left;
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #161827;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -36,3 +32,70 @@
     transform: rotate(360deg);
   }
 }
+.topnav {
+  background-color: #151727;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 30px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+
+  color: orange;
+}
+
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+
+.topnav a.logo {
+  height: 10vmin;
+  pointer-events: none;
+  float: left;
+}
+
+.typewriter h1{
+  overflow: hidden; 
+  border-right: .15em solid orange;
+  white-space: nowrap; 
+  margin: 0 auto; 
+  letter-spacing: .15em;
+  animation: 
+    typing 2s steps(40, end),
+    blink-caret .85s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  background: #161827;
+}
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background: orange;
+}
+
+.content {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  height: 15vmin;}
