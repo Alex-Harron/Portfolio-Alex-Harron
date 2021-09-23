@@ -8,11 +8,6 @@ html {
   scroll-behavior: smooth;
 }
 
-.App-logo {
-  height: 10vmin;
-  pointer-events: none;
-  float: left;
-}
 
 .App-header {
   background-color: #161827;
@@ -145,7 +140,7 @@ h3 {
 .sidenav a:hover {
   color: rgb(0, 0, 0);
   background-color: orangered;
-  border-radius: 15px 50px;
+  border-radius: 25px;
 }
 
 .logo {
