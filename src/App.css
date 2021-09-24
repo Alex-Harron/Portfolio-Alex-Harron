@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: #282c34;
+  background-color: #161827;
   background-attachment: fixed;
 }
 
@@ -12,17 +12,29 @@ html {
 .App-header {
   background-color: #161827;
   background-attachment: fixed;
-  min-height: 500vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
+  color: white
+}
+
+.content {
+  background-color: #161827;
+  background-attachment: fixed;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: top;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  color: white
 }
 
-.App-link {
-  color: #61dafb;
+.hearder {
+  background-color: #161827;
+  background-attachment: fixed;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  align-items: center;
 }
 
 @keyframes App-logo-spin {
@@ -81,7 +93,7 @@ html {
 
 @keyframes blink-caret {
   from, to { border-color: transparent }
-  50% { border-color: orange; }
+  50% { border-color: #161827; }
 }
 
 ::-webkit-scrollbar {
@@ -94,7 +106,7 @@ html {
   background: orange;
 }
 
-.content {
+.personal-logo {
   position: absolute;
   top: 0px;
   left: 0px;
@@ -113,14 +125,18 @@ h1 {
 }
 
 h2 {
-  text-align: right;
-  color: rgb(136, 119, 119);
+  color: rgb(170, 170, 170);
 }
 
 
 h3 {
   text-align: center;
-  color: rgb(204, 203, 203);
+  color: rgb(136, 119, 119);
+}
+
+h4 {
+  text-align: left;
+  color: rgb(136, 119, 119);
 }
 
 .sidenav {
@@ -154,3 +170,25 @@ h3 {
   text-orientation: upright;
   padding-bottom: 30%;
 }
+
+/* Create three unequal columns that floats next to each other */
+.column {
+  padding: 10px;
+}
+
+
+/* Middle column */
+.column.middle {
+  width: 50%;
+}
+
+.box-container {
+  box-sizing: border-box;
+  border-radius: 15px 50px;
+  background: #151727;
+}
+.footer {
+  text-align: center;
+  background-color: #151727;
+}
+

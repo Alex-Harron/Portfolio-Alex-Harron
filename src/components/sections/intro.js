@@ -1,16 +1,14 @@
-
-
 import React from 'react';
 
 
-class About extends React.Component {
+class Intro extends React.Component {
     render() {
         return(
             
-<div id='about' className='typewriter' >
+<div id='intro' className='typewriter' >
 <h4>Hello, My Name is</h4>
 <h1>Alexander Harron</h1>
-<h3>I Create Things for The Web.</h3>
+<h4>I Create Things for The Web.</h4>
 </div>
 
     )
@@ -18,4 +16,4 @@ class About extends React.Component {
 }
 
 
-export default About;
+export default Intro;

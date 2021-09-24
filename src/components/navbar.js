@@ -6,12 +6,12 @@ class NavBar extends React.Component {
     render() {
         return(
 <div class="topnav">  
-  <a href="#home"> <img src={ahlogo} alt='alexharron' className='content' /></a>
-  <a href="https://docs.google.com/document/d/1jVgO0CVta1e69ICaEL1YdbwcEIPMHBgUYRPCyUvnjOc/edit?usp=sharing" className='box'>Resume</a>
-  <a href="#contact">04. contact</a>
-  <a href="#projects">03. projects</a>
-  <a href="#experience">02. experience</a>
-  <a href="#about">01. about</a>
+  <a href="#home"> <img src={ahlogo} alt='alexharron' className='personal-logo' /></a>
+  <h3><a href="https://docs.google.com/document/d/1jVgO0CVta1e69ICaEL1YdbwcEIPMHBgUYRPCyUvnjOc/edit?usp=sharing"  target="_blank" rel="noopener noreferrer" className='box'>Resume</a>
+  <a href="#contact">contact</a>
+  <a href="#projects">projects</a>
+  <a href="#experience">experience</a>
+  <a href="#about">about</a></h3>
 </div>
     )
 }
