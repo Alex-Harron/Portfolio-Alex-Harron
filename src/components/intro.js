@@ -8,7 +8,7 @@ class About extends React.Component {
         return(
             
 <div id='about' className='typewriter' >
-<h3>Hello, My Name is</h3>
+<h4>Hello, My Name is</h4>
 <h1>Alexander Harron</h1>
 <h3>I Create Things for The Web.</h3>
 </div>

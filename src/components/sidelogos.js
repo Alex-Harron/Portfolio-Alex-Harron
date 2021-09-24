@@ -1,14 +1,13 @@
 import React from 'react';
-import li from '../logos/li.png'
-import github from '../logos/github.png'
-
+import IconLinkedin from '../logos/linkedIn';
+import IconGitHub from '../logos/github';
 
 class SideLogos extends React.Component {
     render() {
         return(
-<div class="sidenav">  
-    <a href="https://www.linkedin.com/in/alexander-harron-084658157/"> <img src={li} alt='LinkedIn' className='logo' /></a>
-    <a href="https://github.com/Alex-Harron"> <img src={github} alt='Gmail' className='logo' /></a>
+<div className="sidenav">  
+    <a href="https://www.linkedin.com/in/alexander-harron-084658157/"> <IconLinkedin /></a>
+    <a href="https://github.com/Alex-Harron"> <IconGitHub /></a>
 </div>
     )
 }
