@@ -19,7 +19,9 @@ function App() {
         <About />
         <br/>
         <Jobs />
+        <br/>
         <Projects />
+        <br/>
         <SideLogos />
         <Footer />
         </div>
