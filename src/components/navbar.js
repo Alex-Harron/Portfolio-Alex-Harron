@@ -8,10 +8,10 @@ class NavBar extends React.Component {
 <div class="topnav">  
   <a href="#home"> <img src={ahlogo} alt='alexharron' className='personal-logo' /></a>
   <h3><a href="https://docs.google.com/document/d/1jVgO0CVta1e69ICaEL1YdbwcEIPMHBgUYRPCyUvnjOc/edit?usp=sharing"  target="_blank" rel="noopener noreferrer" className='box'>Resume</a>
-  <a href="#contact">contact</a>
-  <a href="#projects">projects</a>
-  <a href="#experience">experience</a>
-  <a href="#about">about</a></h3>
+  <a href="#contact">Contact</a>
+  <a href="#projects">Projects</a>
+  <a href="#experience">Experience</a>
+  <a href="#about">About</a></h3>
 </div>
     )
 }
