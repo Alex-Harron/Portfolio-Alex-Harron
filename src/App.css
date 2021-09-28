@@ -15,7 +15,7 @@ html {
   flex-direction: column;
   font-size: calc(10px + 2vmin);
   align-items: center;
-  padding-bottom: 10%;
+  padding-bottom: 20%;
   padding-top: 10%;
 }
 
@@ -46,7 +46,7 @@ html {
   float: right;
   color: rgb(170, 170, 170);
   text-align: center;
-  padding: 20px 16px;
+  padding: 10px 16px;
   text-decoration: none;
   font-size: 17px;
 }
@@ -110,7 +110,6 @@ html {
   width: 100px;
   height: 30px;
   border: 3px solid rgb(153, 116, 49);
-  padding-bottom: 10%;
 }
 
 
@@ -166,7 +165,7 @@ h4 {
 
 .column.middle {
   width: 40%;
-  padding-bottom: 10%;
+  padding-bottom: 15%;
 }
 
 .box-container {
@@ -174,10 +173,6 @@ h4 {
   border-radius: 15px 50px;
   background: #151727;
   text-align: left;
-  box-shadow:
-  10px -10px 0 -5px #151727,
-  10px -10px 0 0 #1b1e33;
-  z-index: 1;
 }
 .footer {
   text-align: center;
@@ -188,8 +183,8 @@ h4 {
   border-radius: 8px;
   width: 40%;
   float: right;
+  filter: grayscale(60%) ;
   transition: box-shadow ease-in 150ms;
-  filter: grayscale(50%) brightness(60%) sepia(100%) hue-rotate(350deg) saturate(400%) contrast(0.8);
   transition: .5s ease;
   backface-visibility: hidden;
   position: static;
@@ -199,7 +194,7 @@ h4 {
   box-shadow:
     5px -5px 0 -5px #151727,
     5px -5px 0 0 orange;
-    filter: brightness(1);
+  filter: brightness(1);
 }
 
 
@@ -209,34 +204,40 @@ h4 {
 .child {
   border-radius: 15px 50px;
   position: absolute;
-  background: #151727;
+  background: #1b1e33;
   top: 50px;
-  right: 400px;
+  right: 450px;
   text-align: left;
+  padding: 10px;
+  opacity: .9;
 }
 
 .child-2 {
   border-radius: 15px 50px;
   position: absolute;
-  background: #151727;
+  background: #1b1e33;
   top: 30px;
-  left: 400px;
-  text-align: center;
+  left: 450px;
+  text-align: left;
+  padding: 10px;
+  opacity: .9;
 }
 
 
 .parent {
   position: relative;
+  padding-bottom: 10%;
 }
 
 
 .project-pic{
-  align-items: left;
   border-radius: 25px;
+  right: 200px;
   transition: box-shadow ease-in 150ms;
-  filter: grayscale(50%) brightness(60%) sepia(100%) hue-rotate(350deg) saturate(400%) contrast(0.8);
+  filter: grayscale(60%);
   transition: .5s ease;
   backface-visibility: hidden;
+  width: 80%;
 }
 
 .project-pic:hover {
