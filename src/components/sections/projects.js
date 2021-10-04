@@ -3,31 +3,31 @@ import Left from '../../logos/LeftMarket.PNG';
 import IconGitHub from '../../logos/github';
 import Sea from '../../logos/SeaBreeze.PNG';
 import Sure from '../../logos/SureShots.PNG';
+import PopUp from './PopUp';
 
 
 class Projects extends React.Component {
+
+    state = {
+        seen: false
+    }
+
+    togglePop = () => {
+        this.setState({
+            seen: !this.state.seen
+        });
+    };
+
     render() {
         return(
-            
-<div id='projects' className='column middle'>
+<div id='portfolio' className='column middle'>
     <h1>Things I've Created:</h1>
+    <hr/>
     <br/>
-    <div className='box-container'>
-        <div className='parent'>
-            <h3><img src={Left}  alt='left-handed' className='project-pic' /></h3>
-            <div className='child-2'>
-                <h2><center>SouthPaw Marketplace</center></h2>
-                <h3>This is a React web application allowing the user to view lefthanded specific products</h3>
-                <hr/>
-                <p style={{float:'right'}}><a href="https://github.com/Alex-Harron/lefthanded-marketplace" target="_blank" rel="noopener noreferrer"><IconGitHub /></a></p>
-                <h4 style={{color:'rgb(170, 170, 170)'}}>
-                    <li>Ruby nn Rails</li>
-                    <li>React/Redux</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Heroku</li>
-                </h4>
-            </div>
+    <div className='portfolio'>
+        <div className='portfolio-item'>
+            <h3><img src={Left}  alt='left-handed' className='project-pic' onClick={this.togglePop}/></h3>
+                {this.state.seen ? <PopUp toggle={this.togglePop} /> : null}
             <br/>
             <br/>
         </div>
@@ -43,7 +43,6 @@ class Projects extends React.Component {
                     <li>Javascript</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Heroku</li>
                 </h4>
             </div>
         </div>
@@ -60,7 +59,6 @@ class Projects extends React.Component {
                     <li>Ruby On Rails</li>
                     <li>HTML</li>
                     <li>CSS</li>
-                    <li>Heroku</li>
                 </h4>
             </div>
         </div>

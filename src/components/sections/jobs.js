@@ -9,6 +9,7 @@ class Jobs extends React.Component {
 <div id='experience' className='column middle'>
     <h1>
     Past Experience:
+    <hr/>
     <br/>
     </h1>
     <div className='box-container'>

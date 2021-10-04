@@ -6,8 +6,7 @@ class Footer extends React.Component {
         return(
             
 <div id='contact' className='footer'>
-<h2>Contact me at:</h2>
-<h3>aharron.harron@gmail.com</h3>
+<h3>Designed and Create by: Alexander Harron</h3>
 </div>
     )
 }
