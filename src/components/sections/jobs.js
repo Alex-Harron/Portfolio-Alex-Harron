@@ -1,5 +1,4 @@
 import React from 'react';
-import MPGLogo from '../../logos/MPG-Logo.png'
 
 
 class Jobs extends React.Component {
