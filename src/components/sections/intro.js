@@ -1,15 +1,14 @@
 import React from 'react';
-import test from '../../logos/test.drawio.svg';
 
 class Intro extends React.Component {
     render() {
         return(
             
-<div id='intro'  >
-<img src={test} alt='alexharron' className='personal-logo' />
-<h4 style={{ textAlign:'left'}}>Hello, My Name is</h4>
-<h1 className='neonText' >Alexander Harron</h1>
-<h4 style={{textAlign:'right'}}>I Create Things for The Web.</h4>
+<div id='intro' >
+<h4 style={{textAlign: 'center', color:'whitesmoke', fontSize:'20px'}}>Hi, My Name is</h4>
+<h1  style={{textAlign:'center', fontSize:'100px'}}>Alexander Harron</h1>
+<h1  style={{textAlign:'center', color:'whitesmoke'}}> I Create Things for The Web.</h1>
+            <div><center><h4 style={{color:'whitesmoke', width:'30%'}}>I'm A Full-Stack Software Engineer that has a passion for developing new things and solving problems.</h4></center></div>
 </div>
 
     )
