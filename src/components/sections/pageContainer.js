@@ -1,5 +1,6 @@
 import React from 'react';
 import About from './about';
+import Footer from './footer';
 import Intro from './intro';
 import Jobs from './jobs';
 import Projects from './projects';
@@ -25,7 +26,7 @@ class PageContainer extends React.Component {
 </div>
 
 <div id='contact' class="footer">
-  <h2>Footer</h2>
+  <Footer />
 </div>
 </div>
     )

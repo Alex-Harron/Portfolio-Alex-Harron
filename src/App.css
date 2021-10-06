@@ -8,6 +8,7 @@ html {
 
 h1 {
   color: orange;
+  font-size: 300%;
 }
 
 ::-webkit-scrollbar {
@@ -21,14 +22,14 @@ h1 {
   opacity: .3;
 }
 
-@import url(https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap);
 
 :root {
   font-size: 20px;   
 }
 
 body {
-  font-family: 'Bebas Neue', cursive;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .logo {
@@ -49,15 +50,13 @@ body {
 }
 
 .header {
-  background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: #2d5b81;
-  display: flex;
   flex-direction: column;
-  font-size: 30px;
+  display: flex;
   align-items: center;
-  padding-bottom: 7%;
-  padding-top: 7%;
+  padding: 8%;
+  padding-bottom: 15%;
   flex: 70%;
 }
 
@@ -65,11 +64,12 @@ body {
   display: flex;
   background-color: #2d5b81;
   padding-left: 1%;
+  flex-direction: column;
 }
 
 .navbar a {
   color: orange;
-  padding: 14px 20px;
+  padding: 1%;
   text-decoration: none;
   text-align: center;
 }
@@ -102,7 +102,8 @@ body {
   filter: grayscale(100%) brightness(59%) sepia(100%) hue-rotate(160deg) saturate(400%) contrast(0.8);
   width: 20%;
   float: left;
-  align-items: center;
+  margin-top: 7%;
+  margin-left: 3%;
   transition: box-shadow ease-in 150ms;
   transition: .5s ease;
   backface-visibility: hidden;
@@ -121,6 +122,7 @@ body {
 }
 
 .img2 {
+  filter: grayscale(100%) brightness(80%) saturate(400%) contrast(0.8);
   width: 80%;
   float: left;
   width: 42%;
@@ -129,12 +131,17 @@ body {
   transition: box-shadow ease-in 150ms;
   transition: .5s ease;
   backface-visibility: hidden;
+  box-shadow:
+  10px -10px 0 -5px #2d5b81,
+  10px -10px 0 0 orange;
 
 }
 
 .img2:hover {
-  border-radius: 25px;
   filter: brightness(1);
+  box-shadow:
+  5px -5px 0 -5px #2d5b81,
+  5px -5px 0 0 orange;
 }
 
 .footer {

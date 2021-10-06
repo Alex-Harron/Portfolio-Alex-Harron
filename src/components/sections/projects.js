@@ -6,17 +6,7 @@ import Sure from '../../logos/SureShots.PNG';
 
 
 class Projects extends React.Component {
-
-    state = {
-        seen: false
-    }
-
-    togglePop = () => {
-        this.setState({
-            seen: !this.state.seen
-        });
-    };
-
+    
     render() {
         return(
 <div id='projects'>
@@ -26,6 +16,7 @@ class Projects extends React.Component {
     <h3><img src={Left}  alt='left-handed' className='img2'/></h3>
     <h3 style={{paddingLeft:'50%'}}>SouthPaw Marketplace</h3>
     <h4 style={{width:'90%', color:'whitesmoke', paddingLeft:'50%'}}>A React web application built for lefthanders by a lefthander. Being lefthanded can be hard sometimes so I created a marketplace that caters to the needs of a southpaw. This application allows the user to view, review, and add items to their cart.
+    <hr/>
     <ul >
                     <li>React/Redux</li>
                     <li>Ruby on Rails</li>
@@ -37,11 +28,11 @@ class Projects extends React.Component {
 </div>
 <br/>
 <br/>
-<br/>
 <div className='main'>
     <h3><img src={Sea}  alt='SeaBreeze' className='img2' /></h3>
     <h3 style={{paddingLeft:'50%'}}>SeaBreeze Reality</h3>
-    <h4 style={{width:'90%', color:'whitesmoke', paddingLeft:'50%'}}>A React web application built for lefthanders by a lefthander. Being lefthanded can be hard sometimes so I created a marketplace that caters to the needs of a southpaw. This application allows the user to view, review, and add items to their cart.
+    <h4 style={{width:'90%', color:'whitesmoke', paddingLeft:'50%'}}>A single-page Javascript application designed to view a selection of beach houses to review. Select a hosue and leave your feedback. After the review is submitted it is posted to the site.
+        <hr/>
     <ul>
                     <li>JavaScript</li>
                     <li>Ruby on Rails</li>
@@ -52,11 +43,11 @@ class Projects extends React.Component {
 </div>
 <br/>
 <br/>
-<br/>
 <div className='main' >
     <h3><img src={Sure}  alt='Sure-Shots' className='img2' /></h3>
     <h3 style={{paddingLeft:'50%'}}>Sure Shots</h3>
     <h4 style={{width:'90%',color:'whitesmoke', paddingLeft:'50%'}}>A Ruby on Rails web application built to allow users bet on NBA games. View a specific set of games and select which contest peaks your interest. Then place a bet who you think will win.
+    <hr/>
     <ul >
                     <li>Ruby on Rails</li>
                     <li>SQLite3</li>
