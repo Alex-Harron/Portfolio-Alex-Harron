@@ -47,7 +47,7 @@ class Projects extends React.Component {
 <br/>
 <br/>
 <div className='main' >
-    <h3><img src={Sure}  alt='Sure-Shots' className='img2' /></h3>
+    <h3><a href="https://sure-shots.herokuapp.com/login" target="_blank" rel="noopener noreferrer"><img src={Sure}  alt='Sure-Shots' className='img2' /></a></h3>
     <h3 style={{paddingLeft:'50%'}}>Sure Shots</h3>
     <h4 style={{width:'90%',color:'whitesmoke', paddingLeft:'50%'}}>A Ruby on Rails web application built to allow users bet on NBA games. View a specific set of games and select which contest peaks your interest. Then place a bet who you think will win.
     <hr/>
@@ -57,7 +57,7 @@ class Projects extends React.Component {
                     <li>HTML</li>
                     <li>CSS</li>
                     <li>Heroku</li>
-                    <a href="https://southpaw.herokuapp.com/" target="_blank" rel="noopener noreferrer"><IconExternal /></a><a href="https://github.com/Alex-Harron/Sure_Shots" target="_blank" rel="noopener noreferrer"> <IconGitHub /></a>
+                    <a href="https://sure-shots.herokuapp.com/login" target="_blank" rel="noopener noreferrer"><IconExternal /></a><a href="https://github.com/Alex-Harron/Sure_Shots" target="_blank" rel="noopener noreferrer"> <IconGitHub /></a>
                 </ul>
     </h4>
 </div>
