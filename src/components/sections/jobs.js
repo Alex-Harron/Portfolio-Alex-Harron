@@ -14,11 +14,13 @@ class Jobs extends React.Component {
                 Served as a consultant, delivering program analyst support to the
                 Department of Veteran Affairs.
             </li>
+            <br/>
             <li>
                 Lead project team to solve problems, implement changes, provide
                 ecommendations and track project documents and artifacts regarding business
                 and technical requirements.
             </li>
+            <br/>
             <li> 
                 Developed, edited, and managed management plans, policy documents, program plans,
                 functional and business documents, technical documents, PowerPoint and Excel
