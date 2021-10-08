@@ -33,7 +33,7 @@ class Projects extends React.Component {
 <div className='main'>
     <h3><a href="https://seabreeze-reality.herokuapp.com/" target="_blank" rel="noopener noreferrer"><img src={Sea}  alt='SeaBreeze' className='img2' /></a></h3>
     <h3 style={{paddingLeft:'50%'}}>SeaBreeze Reality</h3>
-    <h4 style={{width:'90%', color:'whitesmoke', paddingLeft:'50%'}}>A single-page Javascript application designed to view a selection of beach houses to review. Select a hosue and leave your feedback. After the review is submitted it is posted to the site.
+    <h4 style={{width:'90%', color:'whitesmoke', paddingLeft:'50%'}}>A single-page Javascript application designed to view a selection of beach houses for review. Select a hosue and leave your feedback. After the review is submitted it is posted to the site.
         <hr/>
     <ul>
                     <li>JavaScript</li>
@@ -49,7 +49,7 @@ class Projects extends React.Component {
 <div className='main' >
     <h3><a href="https://sure-shots.herokuapp.com/login" target="_blank" rel="noopener noreferrer"><img src={Sure}  alt='Sure-Shots' className='img2' /></a></h3>
     <h3 style={{paddingLeft:'50%'}}>Sure Shots</h3>
-    <h4 style={{width:'90%',color:'whitesmoke', paddingLeft:'50%'}}>A Ruby on Rails web application built to allow users bet on NBA games. View a specific set of games and select which contest peaks your interest. Then place a bet who you think will win.
+    <h4 style={{width:'90%',color:'whitesmoke', paddingLeft:'50%'}}>A Ruby on Rails web application built to allow users bet on NBA games. View a specific set of games and select which contest peaks your interest. Then place a bet on who you think will win.
     <hr/>
     <ul >
                     <li>Ruby on Rails</li>
